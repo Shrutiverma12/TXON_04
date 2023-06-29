@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(29, 2, 52);
+    color: beige;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(109, 6, 168);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+}
+nav ul li a:hover{
+    color: rgb(79, 79, 172);
+    font-size: 1.02rem;
+}
+.left{
+    font-size: 2rem; 
+}
+.firstSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 150px 0px;
+    align-items: center;
+}
+.leftSection{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    font-size: 2rem;
+}
+.leftSection .btn{
+    margin: 23px;
+    padding: 12px;
+    background-color: rgb(24, 2, 41);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.purple{
+    font-weight: bold;
+    color: rgb(141, 55, 190)
+}
+.rightSection{
+    width: 30%;
+}
+.rightSection img{
+    width: 60%;
+    
+}
+#element{
+    font-weight: bold;
+    color: rgb(141, 55, 190)
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.6rem;
+    height: 70vh;
+}
+main hr{
+    border: 0px;
+    background-color: rgb(91, 9, 178);
+    height: 2px;
+    margin: 40px 84px;
+}
+.text-gray{
+    color: gray;
+}
+.secondSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px 0px 0px;
+    display: flex;
+    
+}
+.secondSection .vertical{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0px 200px;
+}
+.box-title{
+    position: relative;
+    top: 96px;
+    left: -4px;
+}
+.box-dis{
+    position: relative;
+    top: 100px;
+    color: gray;
+    font-size: 14px;
+    width: 150px;
+}
+.thirdSection{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.6rem;
+    height: 70vh;
+}
+.thirdSection .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px 0px 0px;
+    display: flex;
+    
+}
+.thirdSection .vertical{
+    height: 93px;
+    width: 1px;
+    background: white;
+    margin: 0px 200px;
+}
+.thirdSection .box-dis{
+    position: relative;
+    top: 100px;
+    color: gray;
+    font-size: px;
+    width: 150px;
+}
+.footer{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.2rem;
+    height: 40vh;
+}
+.footer .contact{
+    margin: 40px 0px;
+}
